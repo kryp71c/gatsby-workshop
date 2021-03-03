@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "gatsby workshop",
+    description: "Simple MDX blog site created during gatsby conf 2021",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
