@@ -22,6 +22,7 @@ const Layout = ( { children, pageTitle } ) => {
         <ul className={siteNav}>
           <li className={siteNavItem}><Link to='/'>Home</Link></li>
           <li className={siteNavItem}><Link to='/about'>About this site</Link></li>
+          <li className={siteNavItem}><Link to="/blog">Blog</Link></li>
         </ul>
       </nav>
       { children }

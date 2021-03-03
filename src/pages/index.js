@@ -7,7 +7,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Gatsby Conf 2021 Workshop">
-        <StaticImage src="../images/waves.jpg" alt="watter rippling on the surface"/>
+        <StaticImage src="../images/waves.jpg" alt="watter rippling on the surface" aspectRatio={3/1}/>
         <p>Hello. This site was created by a human during the Gatsby Conf 2021.</p>
         <p>Pretty soon all of this will be done by AI instead.</p>
     </Layout>

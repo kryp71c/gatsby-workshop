@@ -3,10 +3,11 @@
   font-size: 0.7em
 }
 .title {
-  color: #bada55;
-  text-shadow: 2px 2px #663399;
+  color: #663399;
+  text-shadow: 2px 2px #bada55;
   font-size: 2.5rem;
   font-family: Helvetica, Arial, sans-serif;
+  margin-top: 0;
 }
 .site-nav {
   width: 100%;

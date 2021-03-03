@@ -11,10 +11,10 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: "posts",
+        path: `${__dirname}/blog/`
+        ,
       },
-      __key: "pages",
     },
   ],
 };
